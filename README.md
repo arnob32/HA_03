@@ -13,11 +13,12 @@ This project also focuses on robust exception handling and comprehensive unit te
 ## 👨‍💻 Task Distribution 
 
 **Team 7**
-1. Nawshad Fahim MDT 7216629
-2. Md Shariful Islam MDT-7213424
-3. Ibrahim Khalil MDT 7213232
+1. Nawshad Fahim - MDT 7216629 ( LogManager.java, Main.java)
+2. Md Shariful Islam - MDT-7213424
+3. Ibrahim Khalil - MDT 7213232 (QueueManage.java, askSimulator.java)
+4. Raju Naidu - MDT 7213668 (ChargingStation.java, LogService.java, chargingQueue.java, AGV.java)
 
-4. Raju Naidu MDT 7213668
+
 ## 🎯 Main Objectives
 ✅ Ensure accurate luggage tracking using RFID and database records.
 
@@ -27,23 +28,13 @@ This project also focuses on robust exception handling and comprehensive unit te
 
 ✅ Apply Cooncurrency and multitreading techniques:
 
-    🧩  
-
-    🔁 
-
-    ⚙️
-
-    ⛓️ 
-
-
-
+   
 ## Some ScreenShots of Our Test Result:
 
 
 
 
-## Recorded Screencast Vidoe Link:
-
+## Recorded Screencast Vidoe Link: [https://drive.google.com/file/d/14M_wuXevugLJyWOArIQyXnKLBygcE6nh/view?usp=sharing]
 
 ## 👨‍💻 Author
 
