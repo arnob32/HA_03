@@ -39,21 +39,21 @@ The term for a program that coordinates and manages multiple processes at the sa
 
 Pros:
 
-   ❖ Simple to develop and use. Most programming languages (like Java) have some thread support.
-
-   ❖ Ideal for multitasking. Threads allow several tasks at once (like background tasks).
-
-   ❖ Can increase speed. Threads are very useful for improving the performance of input/output-bound programs that wait on data or responses from the network.
+      ❖ Simple to develop and use. Most programming languages (like Java) have some thread support.
+   
+      ❖ Ideal for multitasking. Threads allow several tasks at once (like background tasks).
+   
+      ❖ Can increase speed. Threads are very useful for improving the performance of input/output-bound programs that wait on data or responses from the network.
 
 Cons:
 
-   ● Conflicts of data (race conditions). Threads can attempt to modify the same data at the same time.
-
-   ● Difficult to debug. Errors like deadlocks are hard to identify and fix.
-
-   ● Need for synchronization. Additional constructs are needed to guarantee its access to shared data.
-
-   ● Higher memory usage. Each thread adds a layer of memory usage to the operating system stack.
+      ● Conflicts of data (race conditions). Threads can attempt to modify the same data at the same time.
+   
+      ● Difficult to debug. Errors like deadlocks are hard to identify and fix.
+   
+      ● Need for synchronization. Additional constructs are needed to guarantee its access to shared data.
+   
+      ● Higher memory usage. Each thread adds a layer of memory usage to the operating system stack.
    
 
 
@@ -63,19 +63,19 @@ Cons:
 
 Advantages:
 
-   ❖ No shared data issues—no race conditions or data corruption.
-
-   ❖ Easier to reason about—each actor works in its own independent way.
-
-   ❖ Good scalability—works well with distributed and parallel systems.
+      ❖ No shared data issues—no race conditions or data corruption.
+   
+      ❖ Easier to reason about—each actor works in its own independent way.
+   
+      ❖ Good scalability—works well with distributed and parallel systems.
 
 Disadvantages: 
 
-   ● Delay in messages – There is a time delay in communication because tasks are sending messages to one another rather than sharing memory. 
-
-   ● More complicated design—needs planning to determine how the actors will talk to one another.
-
-   ● Memory overhead – Each actor maintains its own state.
+      ● Delay in messages – There is a time delay in communication because tasks are sending messages to one another rather than sharing memory. 
+   
+      ● More complicated design—needs planning to determine how the actors will talk to one another.
+   
+      ● Memory overhead – Each actor maintains its own state.
    
 3.Event loop/asynchronous: The event loop architecture has a single thread that operates on an event loop to handle multiple tasks by reacting to asynchronous things happening, like a user input, network requests, or file reads. Instead of waiting for a previously started task to finish, the event loop can begin a new task while waiting. This is an advantage in the event loop, and it is quick and responsive.
 
