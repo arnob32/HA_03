@@ -32,7 +32,7 @@ This project also focuses on robust exception handling and comprehensive unit te
 ## Question Answers:
 ### Question 1: provide a comparison of the concurrency models(Procs & Cons)
 
-Concurrency Model: 
+#### Concurrency Model: 
 The term for a program that coordinates and manages multiple processes at the same time is called a concurrency model. It describes how tasks share data, interact, and coordinate when they run at the same time. Three types of concurrency exist in programming.
 
 1. Shared-state (threads): The shared-state (threads) concurrency model allows multiple threads to share the same memory—data—while they run at the same time. Since all threads can read and write the same variables, they need to use various methods to help prevent errors or conflicts (like race conditions) that might occur when other threads are changing data.
@@ -77,7 +77,7 @@ Disadvantages:
    
       ● Memory overhead – Each actor maintains its own state.
    
-3.Event loop/asynchronous: The event loop architecture has a single thread that operates on an event loop to handle multiple tasks by reacting to asynchronous things happening, like a user input, network requests, or file reads. Instead of waiting for a previously started task to finish, the event loop can begin a new task while waiting. This is an advantage in the event loop, and it is quick and responsive.
+3. Event loop/asynchronous: The event loop architecture has a single thread that operates on an event loop to handle multiple tasks by reacting to asynchronous things happening, like a user input, network requests, or file reads. Instead of waiting for a previously started task to finish, the event loop can begin a new task while waiting. This is an advantage in the event loop, and it is quick and responsive.
 
 Some pros of using an event loop:
 
@@ -105,7 +105,7 @@ Best for: Concurrency works best with I/O-bound tasks like requests over the web
 Example: A concurrent system may be a web server servicing multiple clients simultaneously. A parallel system may be a data program that processes information faster by utilizing multiple cores.
 ### Question 3: Explain the usage of Blocking Concurrency Algorithms and Non-blocking Concurrency Algorithms
 
-Blocking:
+#### Blocking:
 
 Blocking algorithms cause a thread to pause until there is a sufficient condition or resource before it continues execution. Non-blocking algorithms use atomic operations or retry so the thread can continue to run, rather than waiting.
 
@@ -115,7 +115,7 @@ Pros: It is easier to program and understand.
 
 Cons: Because the thread wastes time from waiting, it can take longer in a large system.
 
-Non-blocking:
+#### Non-blocking:
 
 Non-blocking algorithms, often utilizing atomic operations, allow the thread to keep running and retry at a later time. Used for higher-performance applications such as databases, real-time systems, and servers that service thousands of users at once.
 
