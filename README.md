@@ -13,20 +13,20 @@ This project also focuses on robust exception handling and comprehensive unit te
 ## 👨‍💻 Task Distribution 
 
 **Team 7**
-   1. Nawshad Fahim - MDT 7216629 ( LogManager.java, Main.java)
-   2. Md Shariful Islam - MDT-7213424
-   3. Ibrahim Khalil - MDT 7213232 (QueueManage.java, askSimulator.java)
-   4. Raju Naidu - MDT 7213668 (ChargingStation.java, LogService.java, chargingQueue.java, AGV.java)
+      1. Nawshad Fahim - MDT 7216629 ( LogManager.java, Main.java)
+      2. Md Shariful Islam - MDT-7213424
+      3. Ibrahim Khalil - MDT 7213232 (QueueManage.java, askSimulator.java)
+      4. Raju Naidu - MDT 7213668 (ChargingStation.java, LogService.java, chargingQueue.java, AGV.java)
 
 
 ## 🎯 Main Objectives
-   ✅ Ensure accurate luggage tracking using RFID and database records.
-   
-   ✅ Prevent luggage loss by maintaining real-time status and alerts.
-   
-   ✅ Handle system errors gracefully (missing files, invalid data, device issues).
-   
-   ✅ Apply Cooncurrency and multitreading techniques:
+      ✅ Ensure accurate luggage tracking using RFID and database records.
+      
+      ✅ Prevent luggage loss by maintaining real-time status and alerts.
+      
+      ✅ Handle system errors gracefully (missing files, invalid data, device issues).
+      
+      ✅ Apply Cooncurrency and multitreading techniques:
 
    
 ## Question Answers:
@@ -81,19 +81,19 @@ Disadvantages:
 
 Some pros of using an event loop:
 
-   - Low memory footprint—you typically only have a few threads that can handle many tasks.
-   
-   - Fast for I/O tasks - Very suitable when performing network or file I/O
-   
-   - Highly scalable—can handle thousands of connections simultaneously.
+      - Low memory footprint—you typically only have a few threads that can handle many tasks.
+      
+      - Fast for I/O tasks - Very suitable when performing network or file I/O
+      
+      - Highly scalable—can handle thousands of connections simultaneously.
 
 Disadvantages of event loop:
 
-   - Difficult for CPU-bound work - Less suitable for tasks that take a lot of processing time.
-   
-   - Messy code—The code can become messy and complex to write and understand (especially with callbacks).
-   
-   - Difficult error handling: Error handling for asynchronous processing can also be complex.
+      - Difficult for CPU-bound work - Less suitable for tasks that take a lot of processing time.
+      
+      - Messy code—The code can become messy and complex to write and understand (especially with callbacks).
+      
+      - Difficult error handling: Error handling for asynchronous processing can also be complex.
   
 ### Question 2: Explain differences between Concurrency vs Parallelism 
 Concurrency vs Parallelism :
