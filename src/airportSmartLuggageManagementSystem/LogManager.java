@@ -9,9 +9,9 @@ public class LogManager {
     
     public synchronized void writeLog(String folder, String fileName, String message) {
         try {
-            
+             
             File dir = new File("logs/" + folder);
-            if (!dir.exists()) dir.mkdirs(); // create if missing
+            if (!dir.exists()) dir.mkdirs(); // file na thakle banabe
 
            
             String date = java.time.LocalDate.now().toString();
@@ -22,15 +22,16 @@ public class LogManager {
             String logLine = "[" + timestamp + "] " + message + System.lineSeparator();
 
             
+            
+            try (FileOutputStream fos = new FileOutputStream(file, true)) {
+                fos.write(logLine.getBytes());
+            }   
+            
             try (FileWriter fw = new FileWriter(file, true)) {
                 fw.write(logLine);
             }
 
             
-            try (FileOutputStream fos = new FileOutputStream(file, true)) {
-                fos.write(logLine.getBytes());
-            }
-
         } catch (IOException e) {
             System.out.println("Error writing log: " + e.getMessage());
         }
