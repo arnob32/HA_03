@@ -10,7 +10,14 @@ It uses modern technologies to monitor every bag’s journey — from check-in t
 
 This project also focuses on robust exception handling and comprehensive unit testing as part of a Java Capstone assignment.
 
+## 👨‍💻 Task Distribution 
 
+**Team 7**
+1. Nawshad Fahim MDT 7216629
+2. Md Shariful Islam MDT-7213424
+3. Ibrahim Khalil MDT 7213232
+
+4. Raju Naidu MDT 7213668
 ## 🎯 Main Objectives
 ✅ Ensure accurate luggage tracking using RFID and database records.
 
@@ -28,14 +35,7 @@ This project also focuses on robust exception handling and comprehensive unit te
 
     ⛓️ 
 
-## 👨‍💻 Task Distribution for every group member
 
-**Team 7**
-1. Nawshad Fahim MDT 7216629
-2. Md Shariful Islam MDT-7213424
-3. Ibrahim Khalil MDT 7213232
-
-4. Raju Naidu MDT 7213668
 
 ## Some ScreenShots of Our Test Result:
 
