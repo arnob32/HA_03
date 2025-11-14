@@ -20,13 +20,6 @@ This project also focuses on robust exception handling and comprehensive unit te
 
 ✅ Apply Cooncurrency and multitreading techniques:
 
-    🧩  
-
-    🔁 
-
-    ⚙️
-
-    ⛓️ 
 
 ## 👨‍💻 Task Distribution for every group member
 
